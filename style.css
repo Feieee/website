@@ -1,40 +1,56 @@
-.sidenav {
-    height: 100%;
-    width: 160px;
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-color: #121416;
+
+}
+.navbar {
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
     position: fixed;
     overflow-x: hidden;
-    left: 0;
-    top: 0;
+    overflow: hidden;
 }
 
-
-/* The navigation menu links */
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
+.navbar a {
+    padding: 10px 10px 600px 200px;
+    margin-left: 50px;
+    line-height: 48px;
+    color: grey;
     font-size: 25px;
-    color: #818181;
-    display: block;
+    text-decoration: none;
+    font-family:sans-serif
 }
 
-.sidenav a:hover {
-    color: white
+.navbar a:hover {
+    color: white;
+}
+.text {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+    margin-left: 575px;
+    font-size: 35px;
+}
+.paragraph {
+    color: red;
 }
 
-.main {
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
+.App_registration_symbol:hover {
+    border: 1px solid white;
 }
 
-
-.smileyface {
-    width: 130px;
-    height: 195px;
-    background: url("images/happy.jpeg.png") no-repeat;
-    display: inline-block;
+html {
+    scroll-behavior: smooth;
 }
 
-.smileyface:hover {
-    background: url(/images/sad.jpeg.png);
+.middleclass {
+    margin-top: 350px;
+}
+
+.bottomclass {
+    margin-top: 800px;
 }
