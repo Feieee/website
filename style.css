@@ -29,12 +29,16 @@
 
 
 .smileyface {
-    width: 130px;
-    height: 195px;
+    width: 1000px;
+    height: 1000px;
     background: url("images/happy.jpeg.png") no-repeat;
-    display: inline-block;
+    margin-left: 50%;
+    
 }
 
 .smileyface:hover {
     background: url(/images/sad.jpeg.png);
+    width: 280px;
+    height: 600px;
+ 
 }
