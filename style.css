@@ -16,7 +16,7 @@ body {
 }
 
 .navbar a {
-    padding: 10px 10px 600px 200px;
+    padding: 10px 10px 600px 75px;
     margin-left: 50px;
     line-height: 48px;
     color: grey;
@@ -34,23 +34,16 @@ body {
     margin-top: 100px;
     margin-left: 575px;
     font-size: 35px;
+    text-decoration: none;
 }
 .paragraph {
     color: red;
-}
-
-.App_registration_symbol:hover {
-    border: 1px solid white;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-.middleclass {
-    margin-top: 350px;
-}
-
-.bottomclass {
-    margin-top: 800px;
+main {
+    margin-top: 50px;
 }

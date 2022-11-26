@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../website maar dan backup"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "website"
+  }
+}
